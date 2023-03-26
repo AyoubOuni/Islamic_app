@@ -156,7 +156,6 @@
   .hr:after {
     background: #222;
     border-radius: 20%;
-    content: "";
     display: block;
     position: absolute;
     bottom: -8px;
@@ -175,7 +174,6 @@
   .min:after {
     background: #222;
     border-radius: 20%;
-    content: "";
     display: block;
     position: absolute;
     bottom: -8px;
