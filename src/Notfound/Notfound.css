@@ -1,0 +1,32 @@
+@keyframes error404 {
+    0% {
+      bottom: -200px;
+      filter: blur(5px) grayscale(100%);
+    }
+    100% {
+      bottom: 0px;
+      filter: blur(0px) grayscale(0%);
+    }
+  }
+  
+  @keyframes errorText {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .error404 {
+    animation: error404;
+    animation-duration: 2s;
+  }
+  
+  .errorText {
+    animation: errorText;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }

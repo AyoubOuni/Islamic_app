@@ -1,0 +1,602 @@
+.active2{  margin-right: 13px; text-decoration: none ; border: 1px solid black; padding: 10px 16px ; cursor: pointer; border-radius: 9px;   background-color:  rgba(7, 5, 5, 0.8) ;
+}
+.active9{   box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.866);
+        background:  rgba(0, 208, 255, 0.771) !important;   transform: scale(1.03); margin-left: 13px; margin-right: 13px; text-decoration: none ; border: 1px solid black; padding: 8px 8px 8px; cursor: pointer; border-radius: 9px;   
+}
+.show_littlescreen{
+    display: none;
+}
+a{
+    display: inline-block !important;
+    flex-direction:row-reverse !important;
+}
+.notactive{color:white;padding:8px;text-decoration: none; margin-right: 13px; cursor: pointer; offset:90px;}
+.notactive2{color:white;padding:8px;text-decoration: none; margin-right: 13px; cursor: pointer; offset:90px;}
+.notactive:hover{color:white;}
+.active:hover{color: hsl(203, 100%, 50%);}
+
+.blue{background-color:#1e1e1e; height:65px; color:white; }
+.marg  {margin-right: 210px; margin-top:-58px; font-size:16px;text-transform: uppercase;font-weight: bold;}
+.marg2  {position: relative; left:81px}
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.head{
+   
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    margin-right:7%;
+   
+}
+.demo {
+  width: 100%;
+  color:white;
+  font-weight: bold;
+  padding: 2px;
+  position: absolute;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  bottom:-33px;
+  display: inline-block;
+
+  
+}
+.sticky{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 100;
+}
+.btn {
+    display: none !important;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: white;
+    
+}     
+.head{
+    position: relative;
+    top:3px;
+    }
+    .xr{
+    margin-left: 1.5em !important;
+}
+.mx{
+    margin-left:0.5em ;
+    margin-right:0.5em ;
+}
+
+
+
+
+
+/* Media query for screens smaller than 768px */
+
+
+/* Media query for screens smaller than 4 */
+
+
+      @media screen and (min-width: 200px) and (max-width:750px) {
+        .artwork-container  {display:none !important;}}
+      @media screen and (min-width: 200px) and (max-width:550px) {
+        .flex_e15493 {position: absolute;
+            top: 49px;
+            right: 150px;}}
+      @media screen and (min-width: 200px) and (max-width:1150px) {
+        .err{
+          position: relative;
+          bottom: 2.2px;
+        }
+        .uyti{
+width: 50px;
+height: 50px;
+margin-bottom: 3px !important;
+position: relative;
+top: 6px !important;
+
+        }
+        a{display: block !important;}
+        .ml{
+            height: 350px !important;
+        }
+        .writer{
+            display: none;
+        }
+        .chEzhz .title {
+            font-size: 18px !important;
+        }
+        .yuy{
+          
+                bottom: 44.5px !important;
+                left: 34px !important;
+            }
+    
+        .rm-audio-player-provider{height: 88px;}
+        .title{
+            position: relative;
+            left: 70px;
+            font-weight: bold;
+            font-size: 16px !important;
+          
+            top: -3px;
+        }
+        .br2 {
+          border: 20px solid rgb(0, 0, 0,0.5);
+          border-image:url("p2.png")
+
+            500 / /* slice */ 40px 40px 40px 40px / /* width */
+             18px 14px 9px 10px /* outset */
+             round
+            !important;
+            
+            padding-left: 0px  !important;
+            padding-right: 0px  !important;
+            padding-bottom: 90px  !important;
+            line-height:  !important;
+            text-align: center !important;
+        }
+        .mx{
+            margin-left:0px ;
+            margin-right:0px ;
+        }
+        .circle-ayat{
+            width:33px !important;
+            height:33px !important;
+        }
+        .lit{
+            width: 300px;
+            height: 100px;
+            position: relative;
+        }
+.none{
+    display: none !important;
+}
+
+        .xr{
+            margin-right: 1em !important;
+            margin-left: 0.2em !important;
+
+        }
+        .cr{
+            min-width:170px !important;
+            max-width:170px !important
+            }
+        .show_littlescreen{
+            display: block !important;
+        }
+       .bhy{
+        display: flex !important;
+       }
+        .texting{
+ 
+          font-size: 23px !important;
+          font-weight: 500;          
+        }
+        .blue{background-color:#1e1e1e !important; height:65px; color:white; }
+        .head{color: white;
+        font-size: 30px;
+        position: relative;
+        top:3px;
+        }
+        .ff{
+            position: relative;
+        top:7px;
+        }
+
+        .current_lang{font-weight: bold!important;}
+        .btn {
+            display: inline-block !important;
+            
+       }
+       .marg{
+        display: none !important;
+    
+       }
+    
+           }
+           
+          
+          #langu{
+
+          }
+          
+          .button_lang {
+            cursor: pointer;
+            display: inline-block;
+            padding: 0.25em 0em;
+            border-radius: 12px;
+            width: 4em;
+            transition: 0.25s ease;
+          }
+          
+       
+          
+          .current_lang {
+            background: #029eff;
+            left: 0;
+        padding-left: 2px;
+        color: black;
+          }
+          
+          
+         
+          a {
+            transition: all 0.15s ease-in-out;
+          }
+          
+         
+          html{scroll-behavior: smooth;  
+          }
+         
+          #skills1 {
+            /* places the contents of the element 100px from the top of the view-port */
+            padding-top: 100px;
+        }
+        #container {
+          margin: 0 auto;
+          max-width: 890px;
+        }
+        
+        p {
+          text-align: center;
+        }
+        
+        .toggle,
+        [id^=drop] {
+          display: none;
+        }
+       
+        
+        /* Giving a background-color to the nav container. */
+      
+        
+      
+        
+        /* Since we'll have the "ul li" "float:left"
+         * we need to add a clear after the container. */
+        
+        
+        
+        /* Removing padding, margin and "list-style" from the "ul",
+         * and adding "position:reltive" */
+        nav ul {
+          float: right;
+          padding:0;
+          margin:0;
+          list-style: none;
+          position: relative;
+          }
+          
+        /* Positioning the navigation items inline */
+        nav ul li {
+          margin: 0px;
+          display:inline-block;
+          float: right !important;
+          background-color: #1e1e1e;
+          }
+          .nnr{
+            background-color: white !important;
+
+          }
+        
+        /* Styling the links */
+        nav a {
+          display:block;
+          padding:1px 2px;	
+          color:#FFF;
+          font-size:18px;
+          text-decoration:none;
+          font-weight:bold;
+          text-align: center;
+
+        }
+        
+        
+      
+        
+        /* Background color change on Hover */
+        nav a:hover { 
+          background-color: #000000; 
+        }
+        
+        /* Hide Dropdowns by Default
+         * and giving it a position of absolute */
+        nav ul ul {
+          display: none;
+          position: absolute; 
+          top: 60px; 
+        }
+          
+        /* Display Dropdowns on Hover */
+        nav ul li:hover > ul {
+          display:inherit;
+        }
+          
+        /* Fisrt Tier Dropdown */
+        nav ul ul li {
+          width:170px;
+          float:none;
+          display:list-item;
+          position: relative;
+        }
+        
+        /* Second, Third and more Tiers	
+         * We move the 2nd and 3rd etc tier dropdowns to the left
+         * by the amount of the width of the first tier.
+        */
+        nav ul ul ul li {
+          position: relative;
+          top:-60px;
+          /* has to be the same number as the "width" of "nav ul ul li" */ 
+          left:170px; 
+        }
+        
+          .carousel .slide img {
+                width: 100%;
+                height: 800px;
+                vertical-align: top;
+                border: 0;
+            }
+   
+        
+        
+        /* Media Queries
+        --------------------------------------------- */
+        
+        @media screen and (min-width: 1250px)  {
+
+            .carousel{
+                width: 1200px !important;
+                border-radius: 10px;
+                }
+        }
+        @media screen and (min-width: 450px) and (max-width:700px) {
+            .carousel .slide img {
+                width: 100%;
+                height: 500px;
+                vertical-align: top;
+                border: 0;
+            }
+        }
+        @media screen and (min-width: 200px) and (max-width:450px) {
+            .carousel .slide img {
+                width: 100%;
+                height: 430px;
+                vertical-align: top;
+                border: 0;
+            }
+           
+            
+        }
+        @media screen and (min-width: 750px) and (max-width:1150px) {
+        .tyyy{
+            top: 1px !important;
+        }}
+        @media screen and (min-width: 200px) and (max-width:750px) {
+        .tyyy{
+            top: -1px !important;
+        }}
+
+
+        .nini{opacity: 0; }
+
+        @media screen and (min-width: 200px) and (max-width:1150px) {
+       .error404,.noningg{display: none !important
+    
+    }
+       .nini{opacity: 1 }
+
+        .nini{display: block !important}
+            .bt{
+                background-color:  rgba(7, 5, 5, 0.8) ;
+                padding:10px 20px;
+                border-radius:25px;
+                width: 310px !important;
+              }
+             
+      
+          /* Hide the navigation menu by default */
+          /* Also hide the  */
+          .toggle + a,
+          .menu {
+            display: none;
+          }
+          
+        
+          /* Stylinf the toggle lable */
+          .toggle {
+            display: block;
+           float: left;
+            margin:15px 20px;	
+            color:#FFF;
+            font-size:18px;
+            text-decoration:none;
+            border:none;
+          }
+        
+          .toggle:hover {
+            background-color: #1e1e1e;
+          }
+        
+          /* Display Dropdown when clicked on Parent Lable */
+          [id^=drop]:checked + ul {
+            display: block;
+          }
+        
+          /* Change menu item's width to 100% */
+          nav ul li {
+            display: block;
+            
+            box-sizing: content-box;
+width: 100%;
+            }
+        
+          nav ul ul .toggle,
+          nav ul ul a {
+            padding: 0 40px;
+          }
+        
+          nav ul ul ul a {
+            padding: 0 ;
+          }
+        
+          nav a:hover,
+           nav ul ul ul a {
+            background-color: #1e1e1e;
+          }
+          
+          nav ul li ul li .toggle,
+          nav ul ul a,
+          nav ul ul ul a{
+            padding: 10px;	
+            color:#FFF;
+            font-size:17px; 
+          }
+          
+          
+          nav ul li ul li .toggle,
+          nav ul ul a {
+            background-color: #212121; 
+          }
+        
+          /* Hide Dropdowns by Default */
+          nav ul ul {
+            float: none;
+            position:static;
+            color: #ffffff;
+            /* has to be the same number as the "line-height" of "nav a" */
+          }
+            
+          /* Hide menus on hover */
+          nav ul ul li:hover > ul,
+          nav ul li:hover > ul {
+            display: none;
+          }
+            
+          /* Fisrt Tier Dropdown */
+          nav ul ul li {
+            display: block;
+            width: 50%;
+          }
+        
+          nav ul ul ul li {
+            position: static;
+            /* has to be the same number as the "width" of "nav ul ul li" */ 
+        
+          }
+        
+        }
+        
+        @media all and (max-width : 330px) {
+        
+          nav ul li {
+            display:block;
+            width: 94%;
+          }
+        
+        }
+        .hr{ color:white ;
+        border-width: 3px;}
+       
+        @media screen and (min-width: 844px) and (max-width:950px) {
+          li a{padding-left:20em !important;}
+          .left{padding-left:22em !important;}
+          nav ul li {
+            display: block;
+            width: 140%;
+            position: relative;
+          
+            box-sizing: content-box;
+            }
+          }
+       
+        @media screen and (min-width: 950px) and (max-width:1000px) {
+          li a{padding-left:23em !important;}
+          .left{padding-left:25em !important;}
+          nav ul li {
+            display: block;
+            width: 140%;
+            position: relative;
+          
+            box-sizing: content-box;
+            }
+          }
+       
+        @media screen and (min-width: 1000px) and (max-width:1150px) {
+          li a{width: 100%; padding-top: -16px !important; padding-bottom: -16px!important;}
+          .left{padding-left:-9.3em !important;}
+          .hr{ color:white ;
+            border-width: 3px;margin-top: 11px !important; margin-bottom: 11px!important;
+          }
+          nav ul li {
+            width: 55%;
+          display: block;
+          
+            }
+          }
+          .scroll {
+            opacity: 0.6;
+            animation-name: scroll;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            position: fixed;
+            width: 100%;
+         color:blue;
+            bottom: 5px;
+            text-align: center;}
+            @keyframes scroll {
+              from {
+                transform: scale(1);
+              }
+              to {
+                transform: scale(1.3);
+              }
+            }
+            .progress {
+              border-radius: 0px !important;
+              position: fixed !important;
+              top: 0px !important;
+              background-color: #1e1e1e !important;
+              width: 100vw;
+              height: 6px !important;}
+              .fill {
+                background-color: white;
+                width: 40px;
+                height: 100%;
+              }
+    .lang{
+      position: relative;
+      bottom:4px;
+    }
+  
+    @media screen and (min-width: 1000px) and (max-width: 1150px) {
+      .dn{
+        display: block !important;
+      }}
+   
+        
+    @media screen and (min-width: 1150px){
+      .dn{
+        display:none !important;
+      }
+    }
+    .bhy{
+      z-index: 300 !important;
+    }
+
+    .space{
+        letter-spacing: 1px !important;
+    }
+     @media screen and (max-width: 1150px){
+        .ptet{width: 50px;
+            height: 50px;
+            }}
+        
+        

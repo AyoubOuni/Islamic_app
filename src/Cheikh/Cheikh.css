@@ -1,0 +1,77 @@
+.all2{          background-color:#E0C568FF;
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-size: cover;
+    /* background-position: center center; */
+    margin: 0px;
+
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.hre:hover{
+    background:  rgba(29, 28, 28, 0.8) !important;
+    box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
+opacity: 0.6;
+transform: scale(1.1);
+}
+
+.cy{
+opacity: 1;}
+
+.active{
+    box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.866);
+opacity: 0.8;
+transform: scale(1.2);
+    background:  rgba(97, 115, 119, 0.571) !important;
+    color: black !important;
+
+}
+.active30{
+    box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.866);
+opacity: 0.8;
+transform: scale(1.18);
+    background:  rgba(97, 115, 119, 0.571) !important;
+    color: black !important;
+
+}
+
+.active5{
+    box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.3);
+opacity: 0.9;
+transform: scale(1.2);
+padding: 15px 20px;
+    background:  rgba(97, 115, 119, 0.571) !important;
+    color: black !important;
+
+}
+.active3{
+    box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.866);
+opacity: 0.8;
+transform: scale(1.2);
+    background:  rgba(0, 0, 0, 0.771) !important;
+
+}
+/* .drFenC{
+    width: 95% !important;
+    position: relative;
+    right: 70px;
+}  */
+.txt{
+    color:#8c8c8c;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+}
+ .efMGxM .track-duration {
+    margin-right:20px ;
+}
+/*
+.iAeDoX .track-current-time {
+   
+    position: relative;
+    right: 70px;
+    bottom: 0.7px;}
+    .btn-wrapper{ position: relative;
+    right: 40px;}
+    */

@@ -1,0 +1,64 @@
+.spac{
+    letter-spacing: 1.1px !important;
+}
+.g{
+   direction:rtl !important;
+
+
+}
+
+::-webkit-scrollbar{
+    width:8px;
+    
+  }
+  ::-webkit-scrollbar-track{
+    background:white;
+  
+  }
+  ::-webkit-scrollbar-thumb{
+    background:#1e1e1e;
+    border-radius:1em;
+    
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background:#1e1e1e;
+  }
+
+
+.r{
+    line-height: 20px !important;
+}
+.br2{
+    border: 20px solid rgb(0, 0, 0,0.5);
+  border-image:
+   url("p2.png")
+   600 /                    /* slice */
+   120px 90px 120px 90px /    /* width */
+   18px 14px 9px 10px       /* outset */
+   round;    
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 90px;
+   line-height: 80px;
+   text-align: center;
+ }
+ .all5{
+  background-color: #faf0be;
+ }
+ .circle-ayat {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:linear-gradient(to bottom, #92FE9D, #00C9FF);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 18px;
+    
+  }
+  .ayat-text {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }

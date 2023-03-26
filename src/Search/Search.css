@@ -1,0 +1,67 @@
+.All{       background-color:#E0C568FF;
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-size: cover;
+    background-position: center center;
+    margin: 0px;
+
+    height: auto;
+    min-height: 100vh;
+
+}
+.rhap_container{box-shadow: 0px 0px !important;}
+.bg-all{
+  
+    background-color:  rgba(7, 5, 5, 0.5) ;
+  }
+.bg-all4{
+  
+    background-color:  rgba(42, 55, 50, 0.571) !important
+  }
+.bg-all2{
+  
+    background-color:  rgba(0 0 0 / 83%) !important  }
+  .sh{
+    height: auto;
+    min-height: 100vh;
+    background:  rgba(7, 5, 5, 0.48)
+  }
+  .rhap_time,.rhap_main-controls-button,.rhap_repeat-button,.rhap_volume-button,.rhap_progress-filled
+   {
+
+    color: #fff !important;
+  }
+  .rhap_progress-indicator{
+    background-color: #fff !important
+  }
+  .r{
+    overflow-x: hidden !important;
+  }
+  .rhap_main-controls {
+   
+    position: relative;
+    right: 31px;
+  }
+
+  .fixed {
+    position: fixed;
+    z-index: 400;
+    bottom: 0;
+  }
+  .wid{
+    min-width: 1000px;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .hre:hover{
+    background:  rgba(29, 28, 28, 0.8) !important;
+    box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
+opacity: 0.6;
+transform: scale(1.1);
+}
+.hre:hover .cy{
+    opacity: 1 !important;
+transform: scale(1.1);
+}
+.cy{
+opacity: 0;}
