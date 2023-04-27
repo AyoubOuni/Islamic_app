@@ -28,7 +28,7 @@ function Prey() {
 
 
   let history = useNavigate();
-   const apiKey = '043149d8fb264075be45b8134aca31c9'; // replace with your API key
+   const apiKey = ''; // replace with your API key
     const apiUrl = 'https://api.opencagedata.com/geocode/v1/json';
     
     function getCountry(city) {
@@ -104,7 +104,7 @@ console.log(adhan);
 
 
     const gett=async(a,b)=>{
-      const TIMEZONEDB_API_KEY = "ZOL8W43ZQDAB";
+      const TIMEZONEDB_API_KEY = "";
 
       // Set the latitude and longitude for which you want to retrieve the current time
       const latitude = 40.7128; // Example latitude for New York, NY
